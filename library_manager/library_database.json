@@ -1,0 +1,72 @@
+{
+    "cb3b6a81d238225c65ad3c921571749e": {
+        "title": "Pride and Prejudice",
+        "author": "Jane Austen",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "f7cff2b536d1af679628998ed5465e42": {
+        "title": "Moby-Dick",
+        "author": "Herman Melville",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "bb65221fd2a21b85fe6f476807e98795": {
+        "title": "1984",
+        "author": "George Orwell",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "a75673457ed773120e7b1d98a3bcbb18": {
+        "title": "The Great Gatsby",
+        "author": "F. Scott Fitzgerald",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "f2784f893db8b0098258dffd163f22f7": {
+        "title": "War and Peace",
+        "author": "Leo Tolstoy",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "f0e8e98f0eaf1d0df50ee4489acafe0c": {
+        "title": "To Kill a Mockingbird",
+        "author": "Harper Lee",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "507f798a9bf11645ebf7c306d6728606": {
+        "title": "Crime and Punishment",
+        "author": "Fyodor Dostoevsky",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "cd315387762eabb00278d63ad549307e": {
+        "title": "The Catcher in the Rye",
+        "author": "J.D. Salinger",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "14746cb383a7b5c1429dee95a6b2f06f": {
+        "title": "The Odyssey",
+        "author": "Homer",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    },
+    "fc59a67f744d8411dd13acb5b7140613": {
+        "title": "Don Quixote",
+        "author": "Miguel de Cervantes",
+        "checked_out": false,
+        "checked_out_by": "",
+        "checked_out_date": 0
+    }
+}
