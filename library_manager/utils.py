@@ -3,7 +3,7 @@ import json
 import time
 from hashlib import md5
 
-def load_json(json_path):
+def load_json(json_path)->None:
     """ Return a dict() containing the data from the input JSON file path
     
     Args:
@@ -22,7 +22,7 @@ def load_json(json_path):
         data = json.load(file)
     return data
 
-def save_json(json_path, data={}):
+def save_json(json_path, data={})->None:
     """ Saves the input dict() to the input JSON file path
     
     Args:
@@ -47,7 +47,7 @@ def save_json(json_path, data={}):
     with open(json_path, 'w') as file:
         json.dump(data, file, indent=4)
         
-def get_unique_id():
+def get_unique_id()->str:
     """ Return a unique identifier """
 
     return md5(str(time.time()).encode()).hexdigest()

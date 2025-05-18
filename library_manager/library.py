@@ -163,8 +163,6 @@ class CLibraryManager:
         found_books = []
         for book in self.library_data['books']:
             title = book.book_data['title']
-            print(title)
-            print(title_search)
             if title_search.lower() in title.lower():
                 found_books.append(title)
         return found_books
