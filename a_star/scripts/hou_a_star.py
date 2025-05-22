@@ -9,19 +9,20 @@ Usage Notes:
     This code should be copy/pasted into the HDA's python Script panel 
     in the "maze assignment" Houdini scene.
 
-    NOTE: "a_start_module_path" should be update to match your local path to "a_star.py"
+    NOTE: The "a_star.py" must be in the same folder as the .hip file or in "scripts" subfolder
 
 """
 
+import os
 import hou
 import math
 import sys
 
-a_start_module_path = r"C:\Users\wes\rebelway_AppliedML.git\houdini\a_star\scripts"
+# Ensure local project path is added for module import
 
-sys.path.append(a_start_module_path)
-
-
+hip_dir = os.path.dirname(hou.hipFile.path())
+sys.path.append(os.path.join(hip_dir))
+sys.path.append(os.path.join(hip_dir,'scripts'))
 
 from a_star import AStarPathFinding
 
