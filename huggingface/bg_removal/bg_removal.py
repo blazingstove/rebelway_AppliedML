@@ -21,7 +21,7 @@ transform_image = transforms.Compose([
     transforms.Normalize([0.485, 0.456, 0.406], [0.229, 0.224, 0.225])
 ])
 
-image = Image.open(input_image_path)
+image = Image.open(input_image)
 input_images = transform_image(image).unsqueeze(0).to('cuda')
 
 # Prediction
